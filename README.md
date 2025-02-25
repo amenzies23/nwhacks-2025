@@ -1,50 +1,16 @@
-# Welcome to your Expo app 👋
+# CapyStudy
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Inspiration
+Studying can often feel tedious and overwhelming without a structured approach. One technique that has helped me throughout my academic journey is utilizing the Pomodoro Technique. This approach has set intervals for focused work, usually 25 minutes, followed by a short 5 minute break. We wanted to develop an app that not only helps students stay focused using this proven Pomodoro Technique but also make studying egaging with a cute, interactive AI companion, CapyBot!
 
-## Get started
+# What it does
+CapyStudy is a mobile app that enhances productivity by letting the user:
 
-1. Install dependencies
+- Log in securely with authentication to save and track their progress through detailed session summaries.
+- Set personalized study and break intervals based on the Pomodoro technique.
+- Interact with an AI-powered companion for any assistance or motivation.
 
-   ```bash
-   npm install
-   ```
+# How we built it
+We used React Native with the Expo framework to build the app's interface, ensuring a smooth and responsive user experience across different devices. For the backend, we integrated Supabase for real-time data management and user authentication through Supabase Auth, allowing users to track and save their study data effortlessly. We also worked with OpenAI API for our chat bot study companion.
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# How to run (Coming soon)
